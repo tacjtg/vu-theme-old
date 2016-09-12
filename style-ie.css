@@ -1,0 +1,5 @@
+/* Stylesheet for IE 6 */
+.header input { background: #666; padding: 8px; border: 0; width: 150px; margin: 0 0 0 5px; color: #CCC;  }
+
+/* Right Nav SEARCH */
+#secnav  input { background: #EEEEEE; padding: 8px; border: 0; width: 140px; margin: 0 0 0 5px; color: #333;  }

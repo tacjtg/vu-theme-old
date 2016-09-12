@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Vanderbilt Wordpress Theme Documentation</title>
+<style>
+<!-- 
+/* reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0; font-size:100%; font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;}
+:focus { outline: 0;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:top;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* base typography */
+html {font-size:100.01%;}
+body {font-size:90%; font-family: Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em; }
+p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+a:focus, a:hover {color:#000;}
+a {color:#009;text-decoration:underline;}
+strong {font-weight:bold;}
+em, i, dfn {font-style:italic;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.0em 0;padding-left:3.333em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+.right { float: right; padding-left: 15px; } 
+
+/* grid */
+.container {width:950px;margin:0 auto; }
+.white { background: #FFFFFF; padding: 20px; } 
+hr {background:#eee;color:#eee;clear:both;float:none;width:100%;height:.1em;margin:1.45em 0;border:none;}
+hr.space {background:#fff;color:#fff;visibility:hidden;}
+
+body { background: #333; }
+h2 { background: #ECECEC; display: block; padding-left: 15px; }
+.colophon { padding-top: 10px; color: #ECECEC; text-align: right; } 
+.colophon a:link, .colophon a:visited {text-decoration: none; color: #ECECEC; border-bottom: 1px dotted #CCC; }
+.colophon a:hover { color: #FC6; } 
+-->
+</style>
+</head>
+
+<body>
+<script type="text/javascript" src="http://www.vanderbilt.edu/asset/vubrandbarfull.js" ></script>
+
+<div class="container">
+<div class="white">
+<h1>Vanderbilt WordPress Theme</h1>
+<img src="screenshot.png" class="right"><h4>Released from University Web Communications <a href="http://www.vanderbilt.edu/publicaffairs/webcomm/">http://www.vanderbilt.edu/publicaffairs/webcomm/</a></h4>
+
+
+The Vanderbilt WordPress Theme has a control panel that will allow you set many options. I&#8217;d suggest installing it &#8211; putting in a few pages and posts so you can have some content pre-populated &#8211; and then turn on and off options in the control pane that is accessible via the <strong>VANDERBILT BRAND menu at the bottom left</strong> of the wordpress menu. When you&#8217;ve got a design you like &#8211; start building your website!</p>
+<p>Please contact<strong> Lacy Tite</strong> (<a href="mailto:lacy.tite@vanderbilt.edu">lacy.tite@vanderbilt.edu</a>) in University Web Communications if you have any questions or suggestions for additional features!</p>
+<p>If you would like to request customization of the theme beyond what is available through the control panel, <a href="http://www.vanderbilt.edu/publicaffairs/webcomm/contact-us/#contactform">contact our office</a>. We&#8217;d be happy to build out a unique version of the them for your department.</p>
+<h3>A few assumptions &#8230;</h3>
+<p><em>This theme has been tested with <strong>WORDPRESS 2.9.2 and WORDPRESS 3.0. </strong></em></p>
+<ul>
+<li>This theme is setup under the assumption that <strong><span style="color: #ff0000;">your site navigational structure is based on the PAGES and SUBPAGES of the site</span></strong><strong>.</strong> Any news or blog posts or other date-based information would be within the POSTS section.</li>
+<li>If you are using POSTS as your websites page structure &#8211; this theme won&#8217;t look right at first. I&#8217;d encourage you to move your posts to pages, as that&#8217;s what pages are meant to be (there are quite a few plugins that will move your posts to pages with the click of a button) &#8212; :) And keep posts for date based information.</li>
+<li>The <strong>homepage</strong> of your site is one of your pages.  You set this at:  <em>Settings &gt; Reading &gt; Front Page Displays *choose your homepage *</em> <strong><span style="color: #ff0000;">You must set this in order to have the display look correct. </span></strong></li>
+</ul>
+<p><strong>Below is a brief description of the current options available in the theme. </strong></p>
+<h3>General Site Settings</h3>
+<ul>
+<li><strong>Navigation Style </strong>- top with dropdowns or right side list.</li>
+<li><strong>Pages to hide in navigation</strong> &#8211; include the page ids of pages you don&#8217;t want to appear in your navigation (i.e. your homepage, or a page that is in your site &#8211; but isn&#8217;t primary information)</li>
+<li><strong>Short Descriptive Blurb for right sidebar</strong> &#8211; perhaps a one or two sentence blurb about your organization (not required)</li>
+<li><strong>Search Method </strong>- use wordpress search or the Vanderbilt Google Search appliance.</li>
+<li><strong>Breadcrumbs</strong> &#8211; breadcrumb navigation is displayed automatically at the top of all pages and posts.</li>
+</ul>
+<h3>Graphic Header Options</h3>
+<ul>
+<li><strong>Use an image as the header instead of text </strong>- if you&#8217;d like to use a graphic header instead of plain Text (This also moves the searchbox down to the right column)</li>
+<li><strong>URL of header image</strong> &#8211; simply create an image no wider than 950 pixels, upload it &#8211; and put the URL here.</li>
+<li><strong>Header Background Color </strong>- pick a color to coordinate with your background image.</li>
+</ul>
+<h3>Homepage Slider Settings</h3>
+<ul>
+<li><strong>Include slider on homepage</strong> &#8211; Any post or page with a customfield &#8216;<strong>featureimage</strong>&#8216; will be put in the slider. The URL of the image to be used should be put as the customfield value.</li>
+<li>For the caption &#8211; it automatically pulls the title of the page or post. If you would rather use customized text, simply add a customfield &#8220;<strong>featuretext</strong>&#8221; with the text you would like to use (being mindful of the length available for display).</li>
+</ul>
+<p><img class="alignnone size-full wp-image-1398" title="slider-featureimages" src="http://www.vanderbilt.edu/publicaffairs/web/manage/files/slider-featureimages.png" alt="" width="600" height="180" /></p>
+<h3>Right Column News Feed</h3>
+<ul>
+<li><strong>Include news feed in the right column? </strong></li>
+<li><strong>External news feed</strong> &#8211; if you&#8217;d rather use an external news feed instead of the POSTS section of your website, place the feed URL here (beginning with http:// and NOT feed://)</li>
+<li>If you do have a news section in your WordPress site &#8211; the theme is thumbnail enabled. Currently &#8211; the thumbnails only display on the archives page.</li>
+</ul>
+<h3>Social Media Links</h3>
+<ul>
+<li>The social media section in the extended footer.</li>
+<li><strong>Connect Section Title</strong> &#8211; what you would like the header of that section to be.</li>
+<li><strong>Facebook</strong> &#8211; URL to your facebook page</li>
+<li><strong>Twitter</strong> &#8211; URL to your twitter account</li>
+<li><strong>Flickr</strong> &#8211; URL to your flickr account</li>
+<li><strong>Flickr UserID</strong> &#8211; your flickr userid (NOT YOUR LOGIN);
+<ul>
+<li>go to this website to find your flick rid: http://idgettr.com/</li>
+</ul>
+</li>
+<li><strong>YouTube</strong> &#8211; URL to your youtube account</li>
+<li><strong>Google Calendar </strong>- placeholder for now, functionality not enabled.</li>
+</ul>
+<h3>Footer</h3>
+<ul>
+<li><strong>Footer Link List Heading</strong> &#8211; currently YOUR VANDERBILT</li>
+<li><strong>Link List Column One</strong> &#8211; formatted as unordered list; input as many li&#8217;s with links as you would like in the left column</li>
+<li><strong>Link List Column Two</strong> &#8211;  formatted as unordered list; input as many li&#8217;s with links as you would like in the right column</li>
+<li><strong>Footer copyright text </strong>- this will display next to the Vanderbilt University copyright notice.</li>
+<li><strong>Google Analytics Code</strong> &#8211; put your google analytics code here &#8211; it will be placed right above the closing body tag.</li>
+</ul>
+<h3>Shortcodes available</h3>
+<ul>
+	<li><strong>&#91;showchildren&#93; </strong> - placing this shortcode on a page will automatically list all of the subpages of the current page.</li>
+	<li><strong>&#91;field name=customfieldname&#93; </strong>- this short code allows you to post code that won't be altered. Useful for iframes, inline javascripts, etc.
+<ul>
+	<li>You create a customfield -- name it googlecal or vimeo or sitemason (whatever you want).</li>
+	<li>Paste the html/php/js code you are wanting to use in as the value.</li>
+	<li>Click "add custom field"</li>
+	<li>Go back up to the post - where you want the code to be - and put the shortcode in:  &#91;field name=googlecal&#93; or &#91;field name=vimeo&#93;.</li>
+</ul>
+</li>
+	<li><strong> &#91;showposts category=58&#93;</strong> - showposts allows you to provide a listing of posts on a post or a page;  you can display posts from a specific category or tag  - and decide how many posts you want to display - and in what order they should display (default displays by date, in ascending order).  (examples below)
+<ul>
+	<li>&#91;showposts tag=58&#93;</li>
+	<li>&#91;showposts category=58 num=8&#93;</li>
+	<li>&#91;showposts category=58 order=ASC orderby=date&#93;</li>
+</ul>
+</li>
+</ul>
+
+<h2>Other built-in features:</h2>
+<ul>
+<li>Breadcrumbs - breadcrumb navigation will automatically appear on all pages other than your homepage.</li>
+<li>Sharing - social media sharing icons are added at the bottom of each page or post.</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div class="container colophon"><p>&copy; 2010 Vanderbilt University &middot; Nashville, Tennessee <a href="http://www.vanderbilt.edu/about/contact/" accesskey="6">Contact</a> &middot; <a href="http://www.vanderbilt.edu/publicaffairs/webcomm/" accesskey="0">University Web Communications</a></p></div>
+
+</body>
+</html>

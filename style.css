@@ -1,0 +1,79 @@
+/*
+Theme Name: Vanderbilt Brand Theme
+Theme URI: http://web.vanderbilt.edu
+Description: WordPress theme for a new Vanderbilt University WP site.
+Version: 2.0
+Author: Vanderbilt University Web Communications
+Author URI: http://web.vanderbilt.edu
+*/
+
+/* Begin Images */
+p img {	padding: 0;	max-width: 100%;	}
+img.centered {	display: block;	margin-left: auto;	margin-right: auto;	}
+img.alignright {	padding: 4px;	margin: 0 0 2px 7px;	display: inline;	}
+img.alignleft {	padding: 4px;	margin: 0 7px 2px 0;	display: inline;	}
+.alignright {	float: right;	}
+.alignleft {	float: left;	}
+/* Captions */
+.aligncenter,div.aligncenter {	display: block;	margin-left: auto;	margin-right: auto;}
+.wp-caption {	border: 1px solid #ddd;	text-align: center;	background-color: #f3f3f3;	padding-top: 4px;	margin: 10px;	-moz-border-radius: 3px;	-khtml-border-radius: 3px;	-webkit-border-radius: 3px;	border-radius: 3px;}
+.wp-caption img {	margin: 0;	padding: 0;	border: 0 none;}
+.wp-caption p.wp-caption-text {	font-size: 11px;	line-height: 17px;	padding: 0 4px 5px;	margin: 0;}
+
+/* Header */
+#content { margin-top: 0; padding-top: 0; }
+#secnav, #seccontent { margin-top: 20px; }
+.header { background: #CCC;  border-bottom: 1px solid #AAA; font: normal normal 1em/1em Georgia,Times,serif; padding: 20px 0px; }
+.graphicheader {border-bottom: 1px solid #AAA; padding: 0; margin: 0; }
+.header h1 { float: left; width: 690px; padding: 0; margin: 0 15px 0 0; color: #666; }
+.header h1 a:link, .header h1 a:visited { color: #666; text-decoration:  none; }
+.header h1 a:hover { color: #000; }
+.header form { float: left; width: 240px; background: #666; padding: 5px 0px; }
+.header .btn { background: #333; padding: 4px 6px; color: #CCC; border: 0;  }
+.header input { background: #666; padding: 8px; border: 0; width: 170px; margin: 0 0 0 5px; color: #CCC;  }
+
+/* Right Nav HOME button */
+#secnav .home { background: #006682; display: block; text-decoration: none; margin: 0; padding: 0; text-align: right; text-transform: uppercase; }
+#secnav .home a:link, #secnav .home a:visited { color: #ECECEC; display: block; padding: 8px 20px 16px 8px; text-decoration: none; border: none;  }
+#secnav .home a:hover { color: #FFF; }
+
+#social { margin: 15px 0 0 0; padding: 0;  width: 375px; }
+#footer h4, #secnav h3, #secnav h4 { font-family: Georgia,Times,serif; }
+h4#hidetitle { display: none; }
+
+/* sharing */
+.addthis {   float: right;  background: #fff;     width: 110px;     padding: 1px;     border: 3px solid #eee;     -moz-border-radius: 5px;     -webkit-border-radius: 5px; margin: 0px 0px 15px 15px; } 
+.addthis a {     position: relative;     display: block;     background: #fff;     width: 77px;     padding: 4px 0 4px 34px;     text-decoration: none;     color: #666; } 
+.addthis a:hover {         background: #f5f5f5;     color: #027999;     text-decoration: none;     -moz-border-radius: 4px;     -webkit-border-radius: 4px; } 
+.addthis span {     position: absolute;     left: 14px;     top: 4px; } 
+.addthis .more {     border-top: solid 1px #eee;     padding: 5px 0 0 0;     margin: 5px 10px 0 10px;     text-align: center; } 
+.addthis .more a {     padding: 4px 0;     margin: 0; } 
+.addthis .more a:hover {     background: none; } 
+.addthis .more span {     display: none; }
+.addthis a.addthis_button_facebook_like { padding: 4px 0 0px 10px; }
+
+.addthis {  background: transparent !important; border: 0 !important; }
+.addthis a {  background: transparent !important; }
+.addthis a:hover { background: transparent !important; } 
+.sidebaraddthis { padding: 10px 5px 10px 15px; }
+
+img.blogthumb { padding: 3px; border: 1px solid #CCC; }
+
+div.tagcloud, div#calendar_wrap { padding: 10px 20px; }
+.tagcloud a:link, .tagcloud a:visited { color: #555; text-decoration: none; border-bottom: 1px dotted #666;  }
+.tagcloud a:hover { color: #999; }
+
+/* calendar */
+#wp-calendar caption { font-size: 1.4em; font-family: Georgia, Times, serif; margin-bottom: 10px; }
+#wp-calendar { width: 100%; border-collapse:collapse; }
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th { padding-bottom: 10px; text-align: center; }
+#wp-calendar tbody { color: #AAA; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #DDD; text-align: center; padding:8px;}
+#wp-calendar tbody td a:link, #wp-calendar tbody td a:visited { color: #900; background: transparent; } 
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+#wp-calendar tfoot a:link,#wp-calendar tfoot a:visited,  { padding: 7px 10px; text-decoration: none; color: #666; background: #CCC; }
+#wp-calendar tfoot a:hover { color: #000; background: #EEE; }

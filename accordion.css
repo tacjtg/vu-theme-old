@@ -1,0 +1,30 @@
+/*first level accordions*/
+ul.accordion { list-style-type:none; margin: 15px 0; padding: 0;}
+ul.accordion li { margin: 5px 0 0 0; padding: 0; }
+ul.accordion li a { font-size: 1.0em; display: block; text-decoration: none; background: #EEE url('arrowdown-accordion.png') no-repeat top right; color: #000 !important; padding: 10px 55px 10px 10px; border: 1px dotted #CCC !important;; }
+ul.accordion li a:hover { background: #CCC url('arrowdown-accordion.png') no-repeat top right; color: #FFF !important; border: 1px dotted #AAA !important; }
+
+   ul.accordion li a {display:inline-block;}
+   ul.accordion li a {display:block;}
+
+/* second level - internal accordion */
+ul.accordion ul.accordion { list-style-type:none; margin: 15px 0; padding: 0; width: 100%; }
+ul.accordion ul.accordion li { margin: 3px 0 0 0 !important; padding: 0; }
+ul.accordion ul.accordion li a:link, ul.accordion ul.accordion li a:visited { display: block !important; text-decoration: none !important; background: #EEE !important; color: #000 !important; padding: 7px !important; border: 0 !important; }
+ul.accordion ul.accordion li a:hover { background: #555 !important; color: #FFF !important; border: 0 !important; }
+   
+/* ACTIVELY OPENED ACC */
+ul.accordion a.active, ul ul.accordion li a.active, ul.accordion a.active:hover, ul ul.accordion li a.active:hover {
+    background: #444 url('arrowup-accordion.png') no-repeat top right !important; color: #FFF !important; font-weight: bold; }
+
+/* Links and uls inside accordions, make them look normal */   
+ul.accordion div.acitem li a, ul.accordion div.acitem p a, ul.accordion ul.acitem li a, ul.accordion ul.acitem p a
+ul.accordion  ul.accordion div.acitem li a, ul.accordion  ul.accordion div.acitem p a, ul.accordion  ul.accordion ul.acitem li a, ul.accordion  ul.accordion ul.acitem p a
+     { font-size: 1em; display: inline !important; color: #369 !important; text-decoration: none !important; background: none !important; margin: 0 !important;    padding: 0 !important; border: none !important; border-bottom: 1px dotted #69C !important; font-weight: normal !important; }
+
+ul.accordion div.acitem a:hover, ul.accordion ul.accordion div.acitem a:hover  { color: #d8ab4c; border-bottom: 1px solid #d8ab4c; }
+ul.accordion ul, ul.accordion div, ul.accordion ul.accordion ul, ul.accordion ul.accordion div  { margin: 15px 30px !important;  }
+
+ul.accordion div.acitem li, ul.accordion div.acitem p, ul.accordion ul.acitem li, ul.accordion ul.acitem p, 
+ul.accordion ul.accordion div.acitem li, ul.accordion ul.accordion div.acitem p, ul.accordion ul.accordion ul.acitem li, ul.accordion ul.accordion ul.acitem p  
+     { line-height: 1.5em !important; } 

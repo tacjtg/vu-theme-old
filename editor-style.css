@@ -1,0 +1,76 @@
+html .mceContentBody {
+    max-width:550px;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0; font-size:100%; font-family:inherit;vertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;}
+:focus { outline: 0;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:top;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* base typography */
+html {font-size:100.01%;}
+body {font-size:75%; font-family: Arial, Helvetica, sans-serif !important;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em; }
+p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+a:focus, a:hover {color:#000;}
+a {color:#009;text-decoration:underline;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.0em 0;padding-left:3.333em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+table {margin-bottom:1.4em;width:100%;}
+tr.even td {background:#ECECEC;}
+.small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
+.right {float: right; margin: 0px 0px 10px 10px; }
+.left {float: left; margin: 0px 10px 10px 0px; }
+
+/* Text elements */
+h2 { color: #555; font-family: Georgia, Times, "Times New Roman", serif; background: #ECECEC; border: 1px solid #DDD; padding: 5px 10px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+ h3 { color: #666; line-height: 1.55em; font-family: Georgia,Times, serif;}
+ h4 { font-weight: bold; color: #993D1B; margin: 10px 0; font-family: Georgia,Times, serif;}
+ h4 a:link,  h4 a:visited {color: #993D1B; text-decoration:  none; }
+ h4 a:hover { color: #d8ab4c; }
+ 
+p a:link, p a:visited { color: #369; border-bottom: 1px dotted #69C; text-decoration: none; }
+p a:hover { color: #d8ab4c; border-bottom: 1px solid #d8ab4c;}
+ ul, ol { padding: 0 0 10px 0; margin: 0 0 0 30px;	font-size: 1.0em; }
+li { line-height: 1.3; padding: 5px 0px; }
+li a:link,li a:visited { color: #369; border-bottom: 1px dotted #69C; text-decoration: none; }
+li a:hover { color: #d8ab4c; border-bottom: 1px solid #d8ab4c;}
+
+ a[href^="mailto:"],  a[href$=".pdf"],  a[href$=".doc"],  a[href$=".xls"] { padding:2px 22px 2px 0;   margin:-2px 0;   background-repeat: no-repeat;   background-position: right center; }
+ a[href^="mailto:"]  { background-image: url(http://www.vanderbilt.edu/asset/i/icons/email.png); }
+ a[href$=".pdf"]   { background-image: url(http://www.vanderbilt.edu/asset/i/icons/pdf.png); }
+ a[href$=".doc"]   { background-image: url(http://www.vanderbilt.edu/asset/i/icons/doc.png); }
+ a[href$=".xls"]   { background-image: url(http://www.vanderbilt.edu/asset/i/icons/xls.png); }
+
+
+/* wp images */
+p img {	padding: 0;	max-width: 100%;	}
+img.centered {	display: block;	margin-left: auto;	margin-right: auto;	}
+img.alignright {	padding: 4px;	margin: 0 0 2px 7px;	display: inline;	}
+img.alignleft {	padding: 4px;	margin: 0 7px 2px 0;	display: inline;	}
+.alignright {	float: right;	}
+.alignleft {	float: left;	}
+/* wp captions */
+.aligncenter,div.aligncenter {	display: block;	margin-left: auto;	margin-right: auto;}
+.wp-caption {text-align: left;	padding-top: 4px;	margin: 10px; }
+.wp-caption img {	margin: 0;	padding: 0;	border: 0 none;}
+.wp-caption p.wp-caption-text {	color: #666; font: normal italic 0.90em/1.3em Georgia,Times, serif; padding: 3px 4px 5px 5px;	margin: 0;}
